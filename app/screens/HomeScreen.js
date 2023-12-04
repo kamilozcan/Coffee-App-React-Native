@@ -12,6 +12,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 import colors from "../config/colors";
 import SearchField from "../components/SearchField";
+import Categories from "../components/Categories";
 
 const avatar = require("../../assets/avatar.png");
 
@@ -80,6 +81,7 @@ export const HomeScreen = () => {
           </Text>
         </View>
         <SearchField />
+        <Categories />
       </ScrollView>
     </SafeAreaView>
   );
