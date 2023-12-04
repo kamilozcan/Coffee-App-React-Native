@@ -1,4 +1,4 @@
-// list of coffes
+// list of coffees
 export default [
   {
     id: 1,
