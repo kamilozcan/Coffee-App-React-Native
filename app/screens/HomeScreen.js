@@ -90,11 +90,11 @@ export const HomeScreen = () => {
               fontWeight: 600,
             }}
           >
-            Find the best coffee for you
+            The best coffee for you
           </Text>
         </View>
         <SearchField />
-        <Categories onChange={(id) => setActiveCategoryId(id)} />
+        <Categories onChange={(id) => setActiveCategoryId(id === 0 ? null : id)} />
         <View
           style={{
             flexDirection: "row",
