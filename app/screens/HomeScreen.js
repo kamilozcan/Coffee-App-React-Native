@@ -86,7 +86,7 @@ export const HomeScreen = () => {
           <Text
             style={{
               color: colors.white,
-              fontSize: 35,
+              fontSize: 30,
               fontWeight: 600,
             }}
           >

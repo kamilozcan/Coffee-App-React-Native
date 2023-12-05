@@ -4,7 +4,7 @@ export default [
     id: 1,
     name: "Cappuccino",
     image: require("../../assets/coffees/nathan-dumlao-c2Y16tC3yO8-unsplash.jpg"),
-    price: "2.00",
+    price: "4.00",
     description:
       "Cappuccino is a coffee drink made with espresso and hot milk. It is traditionally prepared with steamed milk, and is traditionally topped with a small amount of foam.",
     categoryId: 1,
@@ -15,7 +15,7 @@ export default [
     id: 2,
     name: "Espresso",
     image: require("../../assets/coffees/nathan-dumlao-ikU3J1nr52w-unsplash.jpg"),
-    price: "4.01",
+    price: "4.00",
     description:
       "Espresso is a coffee drink made with hot coffee beans that are roasted and then brewed with hot water, resulting in a strong, full-bodied, and concentrated typical of a cappuccino. It is traditionally prepared with steamed milk, and is traditionally topped with a small amount of foam.",
     categoryId: 2,
@@ -26,7 +26,7 @@ export default [
     id: 3,
     name: "Latte",
     image: require("../../assets/coffees/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg"),
-    price: "3.05",
+    price: "3.00",
     description:
       "Latte is a coffee drink made with espresso and steamed milk. It is traditionally prepared with steamed milk, and is traditionally topped with a small amount of foam.",
     categoryId: 3,
@@ -70,7 +70,7 @@ export default [
     id: 7,
     name: "Cappuccino",
     image: require("../../assets/coffees/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg"),
-    price: "2.07",
+    price: "4.00",
     description:
       "Cappuccino is a coffee drink made with espresso and hot milk. It is traditionally prepared with steamed milk, and is traditionally topped with a small amount of foam.",
     categoryId: 1,
@@ -81,7 +81,7 @@ export default [
     id: 8,
     name: "Espresso",
     image: require("../../assets/coffees/taylor-franz-GJogrGZxKJE-unsplash.jpg"),
-    price: "1.99",
+    price: "2.00",
     description:
       "Espresso is a coffee drink made with hot coffee beans that are roasted and then brewed with hot water, resulting in a strong, full-bodied, and concentrated typical of a cappuccino. It is traditionally prepared with steamed milk, and is traditionally topped with a small amount of foam.",
     categoryId: 2,

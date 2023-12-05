@@ -17,16 +17,19 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <AppNavigator />
-    // <NavigationContainer>
-    //   <Stack.Navigator>
-    //     <Stack.Screen
-    //       name="Tab"
-    //       component={TabNavigator}
-    //       options={{ headerShown: false }}
-    //     />
-    //   </Stack.Navigator>
-    // </NavigationContainer>
+    <View style={{ flex: 1, backgroundColor: colors.dark }}>
+      <AppNavigator />
+    {/* <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Tab"
+          component={TabNavigator}
+          options={{ headerShown: false }}
+        />
+      </Stack.Navigator>
+    </NavigationContainer> */}
+      {/* <CoffeeDetailsScreen coffee={coffees[3]} /> */}
+    </View>
   );
 }
 
