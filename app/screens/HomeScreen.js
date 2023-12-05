@@ -8,6 +8,7 @@ import {
   View,
   Dimensions,
 } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import { BlurView } from "expo-blur";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -23,8 +24,14 @@ const { width } = Dimensions.get("window");
 export const HomeScreen = () => {
   const [activeCategoryId, setActiveCategoryId] = useState(null);
 
+  // const navigation = useNavigation();
+
+  // const navigateCoffeeDetails = (coffee) => {
+  //   navigation.navigate("CoffeeDetails", { coffee });
+  // };
+
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ backgroundColor: colors.dark }}>
       <ScrollView
         style={{
           padding: 10,
@@ -105,6 +112,7 @@ export const HomeScreen = () => {
             .map((coffee) => (
               <View
                 key={coffee.id}
+                // onPress={() => navigateCoffeeDetails(coffee)}
                 style={{
                   width: width / 2 - 20,
                   marginBottom: 10,
